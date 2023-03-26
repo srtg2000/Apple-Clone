@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: black;
+    display: block;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 460;
+    letter-spacing: 0.10em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+nav{
+display: flex;
+height: 45px;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    font-family: inherit;
+}
+nav ul li a:hover{
+    color: whitesmoke;
+}
+i{
+    color: white;
+    padding: 16px;
+}
+.shopping{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-align: center;
+    padding: 20px;
+}
+.link span{
+    padding: 15px;
+}
+.link a{
+    color: rgb(54, 54, 201);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    text-decoration: none;
+}
+.link a:hover{
+    cursor: pointer;
+}
+.photo img{
+    display: block;
+    width: 45%;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+}
